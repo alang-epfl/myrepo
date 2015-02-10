@@ -4,7 +4,7 @@ void setup(){
   frameRate(100);
 }
 void draw(){
-  background(255,204,0);
+  background(255,204,200);
   ellipse(x,height/2,40,40);
   x+=2;
   if(x>width+40){
